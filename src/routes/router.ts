@@ -8,6 +8,7 @@ interface Feedback {
 }
 
 router.get("/feedback", (req: Request, res: Response) => {
+    console.log("hitted");
     res.send(feedbackArray);
 });
 
